@@ -14,9 +14,9 @@ const Skills: React.FunctionComponent = () => {
                 </Row>
 
                 <Row className="mt-5">
-                    {skills.map((skill, i) => {
+                    {skills.map((skill) => {
                         return (
-                            <Col style={{marginBottom: "20px"}} lg={4} md={4} sm={6} xs={12}>
+                            <Col key={skill.id} style={{marginBottom: "20px"}} lg={4} md={4} sm={6} xs={12}>
                                 <SkillsCard {...skill}/>
                             </Col>
                         )
