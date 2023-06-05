@@ -11,7 +11,7 @@ const About: React.FunctionComponent = () => {
                 </Col>
             </Row>
             <Row>
-                <Col lg={6} md={12} className="order-lg-1 order-md-2">
+                <Col lg={6} md={12} sm={12} xs={12} className="order-lg-1 order-md-2 order-sm-2">
                     <div style={{fontSize: "18px", textAlign: "justify"}} className="w-100 p-3 ps-0">
                         <p>Hello there! My name is Kabil, and I am a professional web developer. Welcome to my
                             portfolio, where I am excited to showcase my skills, experience, and projects in the
@@ -28,7 +28,7 @@ const About: React.FunctionComponent = () => {
                     </div>
 
                 </Col>
-                <Col lg={6} md={12} className="order-lg-2 order-md-1">
+                <Col lg={6} md={12} sm={12} xs={12} className="order-lg-2 order-md-1 order-sm-1">
                     <div className="w-100 m-2 shadow-sm border rounded ">
                         <img className="w-100 pt-0 rounded" src={web_dev}/>
                     </div>
