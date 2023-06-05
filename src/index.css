@@ -1,0 +1,46 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    /*color-scheme: light dark;*/
+    /*color: rgba(255, 255, 255, 0.87);*/
+    /*background-color: #242424;*/
+    background-color: #ffffff;
+    color: #1b1b1b;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.hero img:hover {
+    transform: translateX(-5%) translateY(2%);
+    transition: all 200ms;
+}
+
+.hero img {
+    transition: all 200ms;
+}
+
+.avatar_bg {
+    width: 305px;
+    height: 305px;
+    border-radius: 50%;
+    /*background-color: #5939fe;*/
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    margin-top: -310px;
+    margin-left: 10px;
+}
+
+.skill-badge {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    /*border: 2px solid black;*/
+    z-index: 5;
+    transform: rotate(45deg);
+}
