@@ -29,8 +29,8 @@ const About: React.FunctionComponent = () => {
 
                 </Col>
                 <Col lg={6} md={12} sm={12} xs={12} className="order-lg-2 order-md-1 order-sm-1">
-                    <div className="w-100 m-2 shadow-sm border rounded ">
-                        <img className="w-100 pt-0 rounded" src={web_dev}/>
+                    <div className="w-100 m-2 border rounded ">
+                        <img alt="web_dev_pic" className="w-100 pt-0 rounded" src={web_dev}/>
                     </div>
                 </Col>
             </Row>

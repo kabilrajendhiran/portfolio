@@ -1,4 +1,5 @@
 import my_photo from "../assets/my_photo_square.jpg";
+import {Button} from "react-bootstrap";
 
 const Footer = () => {
     return (
@@ -10,6 +11,7 @@ const Footer = () => {
                 <h5 className="mb-1">Kabil Rajendhiran</h5>
                 <p className="mb-0">kabildeveloper@gmail.com</p>
                 <p>+91 7904178527</p>
+                <Button onClick={()=>window.open("https://github.com/kabilrajendhiran/portfolio", "_blank")} variant="outline-light"> Source Code </Button>
             </div>
         </div>
     )

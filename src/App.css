@@ -1,0 +1,65 @@
+.profile-img-container {
+    width: 300px;
+}
+
+#git, #python, #django, #docker, #react {
+    position: absolute;
+    transform: translateX(0%) translateY(-64px);
+    transition: all 300ms;
+}
+
+#git.expand {
+    transform: translateX(200px) translateY(200px);
+}
+
+#python.expand {
+    transform: translateX(-200px) translateY(200px);
+}
+
+#django.expand {
+    transform: translateX(-240px) translateY(-120px);
+}
+
+#docker.expand {
+    transform: translateX(240px) translateY(-120px);
+}
+
+#react.expand {
+    transform: translateX(0) translateY(-290px);
+}
+
+@media screen
+and (min-width: 360px) and (max-width: 450px) {
+    .profile-img-container {
+        width: 150px;
+    }
+    #git.expand {
+        transform: translateX(100px) translateY(200px);
+    }
+
+    #python.expand {
+        transform: translateX(-100px) translateY(200px);
+    }
+
+    #django.expand {
+        transform: translateX(-140px) translateY(-120px);
+    }
+
+    #docker.expand {
+        transform: translateX(140px) translateY(-120px);
+    }
+
+    #react.expand {
+        transform: translateX(0) translateY(-250px);
+    }
+}
+
+.skill-badge {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    /*border: 2px solid black;*/
+    z-index: 5;
+    transform: rotate(45deg);
+}
